@@ -23,7 +23,7 @@ class Loggers{
   static void w(dynamic message)  =>  _logger.w(message);
   
   ///Fatal // Total crashes or unrecoverable issues
-  static void w(dynamic message) => _logger.w(message);
+  static void f(dynamic message) => _logger.f(message);
 
 }
 
